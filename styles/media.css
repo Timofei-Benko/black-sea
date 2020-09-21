@@ -1,0 +1,126 @@
+@media screen and (max-width: 1920px) {
+    .header__hamburger {
+        display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .form__user-name {
+        width: 53%;
+    }
+
+    .form__user-email {
+        width: 53%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__logo {
+        margin-left: 7%;
+    }
+    
+    .header__hamburger {
+        margin-right: 7%;
+    }
+    
+    .header__hamburger div {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: #FFFFFF;
+        margin: 6px 0;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .main__title {
+        font-size: calc(20px + (20 - 5) * ((100vw - 400px) / (1280 - 400)));
+    }
+
+    .main__text {
+        font-size: calc(15px + (15 - 5) * ((100vw - 400px) / (1280 - 400)));
+        margin: 0 5%;
+    }
+
+    .testimonial .container {
+        height: 50vh;    
+    }
+
+    .testimonial__review {
+        font-size: calc(15px + (15 - 5) * ((100vw - 400px) / (1280 - 400)));
+        margin: 15% 5% 0;
+    }
+
+    .contact .container {
+        height: 32vh;    
+    }
+
+    .form {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .form__user-name {
+        width: 40%;
+    }
+
+    .form__user-email {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .testimonial__dhavan {
+        margin-top: 0;
+    }
+    
+    .testimonial__photo-container::before {
+        bottom: 50%;
+        left: 120%;
+    }
+
+    .testimonial__photo-container::after {
+        bottom: -65%;
+        left: 98%;
+    }
+
+    .contact .container {
+        height: 30vh;    
+    }
+
+    .form {
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .testimonial__photo-container::before {
+        bottom: 50%;
+        left: 118%;
+        font-size: 20px;
+    }
+    
+    .testimonial__photo-container::after {
+        bottom: -45%;
+        left: 98%;
+        font-size: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .testimonial__photo-container::before {
+        font-size: 15px;
+    }
+    
+    .testimonial__photo-container::after {
+        bottom: -30%;
+        font-size: 200px;
+    }
+}
