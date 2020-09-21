@@ -1,4 +1,4 @@
-https://timofei-benko.github.io/lesson-6/
+https://timofei-benko.github.io/black=sea/
 
 # Домашнее задание к уроку 6
 
